@@ -1,0 +1,29 @@
+.labels {
+    margin-left: 5px;
+    color: red;
+}
+
+.form-div {
+    width: 350px;
+    height: 360px;
+    background: rgb(206, 236, 245);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 100px auto 0;
+}
+
+#header-form { 
+    text-align: center;
+}
+
+#form {
+    margin-top: 50px;
+    text-align: left;
+}
+
+
+.success-msg {
+    text-align: center;
+    color: rgb(4, 235, 4);
+    display: none;
+}

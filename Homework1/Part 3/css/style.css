@@ -1,0 +1,73 @@
+* {
+    font-size: 1em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    min-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;  
+    background-color: #f3d3ae;
+}
+
+.container form {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.container input {
+    display: block;
+    margin: 1rem;
+}
+
+.dogs-list {
+    list-style: none;
+}
+
+.carousel {
+    width: 700px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 30px auto 0;
+    padding: 10px;
+    display: none;
+}
+
+.img-conatiner {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 30px auto 0;
+
+}
+
+.paganation { 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.added {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */   
+}
+
+.current {
+    background: black;
+    color: white;
+}

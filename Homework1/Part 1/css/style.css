@@ -1,0 +1,34 @@
+* {
+    font-size: 1.2em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    min-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;  
+    background-color: #f3d3ae;
+}
+
+.container form {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.container input {
+    display: block;
+    margin: 1rem;
+}

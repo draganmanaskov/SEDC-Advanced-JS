@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./css/style.css">
+    <title>ATM</title>
+</head>
+<body>
+    <div class="container">
+        <div class="atm">
+            <div class="screen">
+                <div class="options">
+                    <ul>
+                        <li>1 -> get balance <button class="options-btns numbers" value="1"></button></li>
+                        <li>2-> make deposit <button class="options-btns numbers" value="2"></button></li>
+                        <li>3 -> withdrawal <button class="options-btns numbers" value="3"></button></li>
+                        <li>4 - exit <button class="options-btns numbers" value="4"></button></li>
+                    </ul>
+                </div>
+                <div class="result">
+                    <div class="result-changes"></div>
+                    <div class="result-nav">
+                        <div >
+                            <button class="options-btns another-transaction-btn"></button>
+                            <label>Another transaction</label>
+                        </div>
+                        <div >
+                            <label>Exit </label>
+                            <button class="options-btns exit-btn"></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="side-panel">
+                <div class="card-reader">
+                    <h2>INSERT CARD HERE</h2>
+                    <div class="card-insert"></div>
+                </div>
+                <div class="controls">
+                    <button class="numbers numbers-style " value="1">1</button>
+                    <button class="numbers numbers-style " value="2">2</button>
+                    <button class="numbers numbers-style " value="3">3</button>
+                    <button class="numbers numbers-style " value="4">4</button>
+                    <button class="numbers numbers-style " value="5">5</button>
+                    <button class="numbers numbers-style " value="6">6</button>
+                    <button class="numbers numbers-style " value="7">7</button>
+                    <button class="numbers numbers-style " value="8">8</button>
+                    <button class="numbers numbers-style " value="9">9</button>
+                    <button class="numbers numbers-style " value="C">C</button>
+                    <button class="numbers numbers-style " value="0">0</button>
+                    <button class="numbers numbers-style " value=""></button>
+                    <div>
+                        <button class="numbers cancel numbers-style " value="cancel">Cancel</button>
+                        <button class="numbers clear numbers-style " value="clear">Clear</button>
+                        <button class="numbers enter numbers-style " value="enter">Enter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="credit-card" draggable="true">
+            <p>1234-2345-4567-6789</p>
+        </div>
+    </div>
+
+
+
+    
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script src="./src/script.js"></script>
+</body>
+</html> 
